@@ -1,4 +1,4 @@
-# AI-driven-COVID-predictor
+# AI-driven COVID health stats predictor
 This software is developed for predicting COVID-19 severity using Convolutional Neural Networks (CNN) and Long Short-Term Memory Networks (LSTM). It assesses severity by analyzing protein sequences in FASTA format, alongside clade, gender, age, and lineage data. Additionally, it automates the installation of necessary packages.
 
 After downloading the software, grant all necessary permissions using `chmod`. Once the permissions are set, you can run the software by calling it with Python 3.
