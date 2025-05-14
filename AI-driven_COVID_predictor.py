@@ -39,7 +39,7 @@ from Bio.Align import PairwiseAligner
 
 # Download the trained model
 if not os.path.exists('model_trained.h5'):
-    os.system('wget -O model_trained.h5 https://github.com/caiocheohen/ml_training/blob/main/model_trained.h5?raw=true > /dev/null 2>&1')
+    subprocess.run(['wget', '-O', 'model_trained.h5', 'https://github.com/caiocheohen/ml_training/blob/main/model_trained.h5?raw=true'], check=True)
 
 # Load the trained model
 model = load_model('model_trained.h5')
